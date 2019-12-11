@@ -97,7 +97,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # batch are decorrelated. It has been shown that this greatly stabilizes
 # and improves the DQN training procedure.
 #
-# For this, we're going to need two classses:
+# For this, we're going to need two classes:
 #
 # -  ``Transition`` - a named tuple representing a single transition in
 #    our environment. It essentially maps (state, action) pairs
